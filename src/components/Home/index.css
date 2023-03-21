@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-bg {
+  background-image: linear-gradient(to bottom, #303150, #b5b9ff);
+  height: 350px;
+  width: 450px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.button {
+  color: #303150;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+}
+div {
+  text-align: center;
+}
